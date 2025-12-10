@@ -1,6 +1,5 @@
 import React from 'react'
-import Sidebar from './sidebar'
-import Card from '../card/Card'
+import Sidebar from './sidebar.jsx'
 import { Outlet } from 'react-router'
 
 export default function Layout() {
