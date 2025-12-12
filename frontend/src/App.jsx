@@ -19,7 +19,7 @@ export default function App() {
       <Toaster />
       <Routes>
 
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
 
         <Route path="/unauthorized" element={<Unauth />} />
 
