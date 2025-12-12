@@ -24,7 +24,7 @@ export default function Login() {
             setUser(data.user);
 
             if (data.user.role === "admin") {
-                navigate('/');
+                navigate('/admin');
             } else if (data.user.role === "instructor") {
                 navigate('/instruct');
             }
