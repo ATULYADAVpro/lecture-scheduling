@@ -24,7 +24,7 @@ export default function Sidebar() {
       <hr className="m-2 text-gray-300" />
       <ul className="m-2">
         <NavLink
-          to="/"
+          to="/admin"
           className={({ isActive }) =>
             `p-2 my-2 flex rounded hover:bg-gray-600 hover:text-white ${isActive ? 'bg-gray-600 text-white' : ''
             }`
@@ -34,7 +34,7 @@ export default function Sidebar() {
         </NavLink>
 
         <NavLink
-          to="/course"
+          to="/admin/course"
           className={({ isActive }) =>
             `p-2 my-2 flex rounded hover:bg-gray-600 hover:text-white ${isActive ? 'bg-gray-600 text-white' : ''
             }`
@@ -44,7 +44,7 @@ export default function Sidebar() {
         </NavLink>
 
         <NavLink
-          to="/lecture"
+          to="/admin/lecture"
           className={({ isActive }) =>
             `p-2 my-2 flex rounded hover:bg-gray-600 hover:text-white ${isActive ? 'bg-gray-600 text-white' : ''
             }`
@@ -54,7 +54,7 @@ export default function Sidebar() {
         </NavLink>
 
         <NavLink
-          to="/instructor"
+          to="/admin/instructor"
           className={({ isActive }) =>
             `p-2 my-2 flex rounded hover:bg-gray-600 hover:text-white ${isActive ? 'bg-gray-600 text-white' : ''
             }`

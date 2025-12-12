@@ -23,7 +23,7 @@ export default function App() {
 
         <Route path="/unauthorized" element={<Unauth />} />
 
-        <Route path='/' element={<PrivateRoute allowedRoles={'admin'}> <Layout /> </PrivateRoute>}>
+        <Route path='/admin' element={<PrivateRoute allowedRoles={'admin'}> <Layout /> </PrivateRoute>}>
           <Route index element={<Home />} />
           <Route path="course" element={<Course />} />
           <Route path="lecture" element={<Lecture />} />
