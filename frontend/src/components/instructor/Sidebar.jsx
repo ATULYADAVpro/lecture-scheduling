@@ -25,6 +25,7 @@ export default function Sidebar() {
       <ul className="m-2">
         <NavLink
           to="/instruct"
+          end
           className={({ isActive }) =>
             `p-2 my-2 flex rounded hover:bg-gray-600 hover:text-white ${isActive ? 'bg-gray-600 text-white' : ''
             }`
